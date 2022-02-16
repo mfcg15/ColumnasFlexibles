@@ -1,0 +1,36 @@
+div
+{
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+.row
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.col
+{
+    flex: 1;
+}
+
+.col2
+{
+    flex: 2;
+}
+
+.col3
+{
+    flex: 3;
+}
+
+.col,.col2,.col3
+{
+    background-color: #5f9fa0;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
